@@ -1,0 +1,103 @@
+# --- .NET build files ---
+bin/
+obj/
+out/
+
+# --- Visual Studio ---
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# --- Logs / Temp files ---
+*.log
+*.tlog
+*.tmp
+*.temp
+*.patch
+
+# --- OS Specific ---
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.psd
+
+# --- NuGet ---
+*.nupkg
+**/packages/*
+!**/packages/build/
+.nuget/
+*.snupkg
+
+# --- MAUI / Platforms ---
+# Android Stuff
+*.keystore
+*.jks
+*.ap_
+*.apk
+*.aab
+*.dex
+*.class
+*.so
+*.o
+*.a
+.gradle/
+local.properties
+
+# iOS / Mac Catalyst
+*.xcuserstate
+*.xcworkspacedata
+*.xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+Pods/
+DerivedData/
+*.ipa
+
+# Maui Assets Cache
+Resources/Raw/*
+
+# --- Certificates / Signing Keys ---
+*.pfx
+*.p12
+*.key
+*.keystore
+*.cer
+
+# --- JetBrains / Rider ---
+.idea/
+*.iml
+
+# --- Translations cache ---
+*.resources
+*.resx.bak
+
+# --- Test results ---
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# --- Backup files ---
+*~
+*.bak
+*.old
+*.orig
+
+# Node (if using hybrid WebView or tools)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
