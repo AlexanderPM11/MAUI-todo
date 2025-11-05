@@ -4,11 +4,18 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:TodoApp"
+    xmlns:views="clr-namespace:TodoApp.Views"
     Title="TodoApp">
 
     <ShellContent
-        Title="Home"
+        Title="Inicio"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
+
+    <!-- Views -->
+    <ShellContent
+        Title="Detalle"
+        ContentTemplate="{DataTemplate views:DetailPage}"
+        Route="DetailPage"/>
 
 </Shell>
